@@ -6,6 +6,6 @@ selectElement(".menu-icons").addEventListener("click", () => {
   selectElement("nav").classList.toggle("active");
 });
 
-selectElement(".expand").addEventListener("click", () => {
+selectElement(".ion-md-arrow-dropdown").addEventListener("click", () => {
   selectElement(".sub-menu").classList.toggle("active");
 });

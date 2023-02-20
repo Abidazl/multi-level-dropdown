@@ -170,7 +170,7 @@ li.move-right {
     position: fixed;
     top: 0;
     left: 0;
-    height: 100vh;
+    /* height: 100vh; */
     display: none;
     flex-direction: column;
     align-items: initial;
@@ -195,7 +195,7 @@ li.move-right {
     display: none;
   }
 
-  .nav-list li:hover > .sub-menu {
+  .ion-md-arrow-dropdown.active > .sub-menu {
     opacity: 1;
     visibility: visible;
     max-height: initial;
@@ -222,6 +222,10 @@ li.move-right {
 
   nav.active .nav-list {
     display: flex;
+  }
+  .ion-md-arrow-dropdown {
+    cursor: pointer;
+    /* display: none; */
   }
 }
 
